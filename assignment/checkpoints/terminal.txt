@@ -1,21 +1,31 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
+You use "ls" to see what files are in the current directory you're in
 
 # 2 - What is the command for changing directories?
+You would use cd name-of-the-folder (cd = change directory)
 
 # 3 - What is the command for going back a folder (to a parent directory)?
+You would use cd .. which will bring you back up to the parent document
 
 # 4 - What is a quick way to create a new folder?
+mkdir brand-new
 
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
+In an empty folder you won't see anything (it's empty), where as other document folders with content will show the files contained within them.
 
 # 6 - What is a quick way to create a new file?
+touch new-file.js (which will create a JavaScript file), and you can change the file type after the period.
 
 # 7 - Run 'git --version' in your terminal. What is the output?
+git version 2.26.2
 
 # 8 - Why would you run the command 'git status'?
+You can see which files are ready to be committed or are not ready to be committed yet (if they are staged or not) as well as if modifications have been made.
 
 # 9 - What does the command 'git add .' do?
+It stages the file for GitHub with everything in that specific file. That way all the changes that have been made are staged to be committed and are up to date.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+You need to say get push -u origin master if you haven't pushed the file to GitHub before 
